@@ -48,6 +48,7 @@ input[disabled] {
 #nav{
 	width: 180px;
 	float: left;
+	font-size: 90%;
 }
 
 #nav .selected{
@@ -63,13 +64,14 @@ input[disabled] {
 	width: 600px;
 	float: right;
 	overflow-x: auto;
-	white-space: nowrap;
+	
 }
 
 table, tbody, td {
 	border: 1px solid black;
 	text-align: left;
 	border-collapse: collapse;
+	white-space: nowrap;
 }
 
 td {
